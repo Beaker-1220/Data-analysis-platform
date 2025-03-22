@@ -58,5 +58,4 @@ is empty.
 ###### Author
 
 Sun Weitai 孙伟太
-人工智能2班  学号：202264640330
 邮箱：sun.weitai@foxmail.com
