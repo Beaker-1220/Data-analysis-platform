@@ -1,25 +1,62 @@
-# Dual-Domain-Diffusion
-# Dual-domain-CineMRI-using-optical-and-conditional-diffusion
-## Project description：
-1. Input Image Sequence: The input consists of a set of three consecutive image frames $\left(i_{t-1}, i_t, i_{t+1}\right)$, which are disturbed by adding noise through the "Noised" module. Below is another set of frame sequences $\left(k_{t-1}, k_t, k_{t+1}\right)$, also disturbed by the "Noised" module.
-2. FlowNet Module: In the upper branch, the noisy image sequence passes through the "FlowNet" module, which is used to estimate motion vectors (i.e., optical flow) and outputs the information of the preceding and following frames corresponding to $i_t$ (i.e., $i_{t-1}^{\prime}$ and $i_{t+1}^{\prime}$ ).
-3. Optical Flow Calculation: The lower branch uses optical flow calculation, where the corresponding image frames are processed through the "MASK" module. This module is used to fuse or filter the optical flow information with the noisy images, generating a new set of feature maps $z_T$.
-4. QKV Mechanism: The generated optical flow images are transformed into frequency domain data through the inverse Fourier transform, guiding the image reconstruction in the frequency domain using an attention mechanism. After $T$ repetitions, the reconstructed image is generated.
+# Introduce of the project
 
-   ### Model structure
-![modell](https://github.com/user-attachments/assets/195c15f8-3f22-4ae9-b05b-bcb78cc05e82)
+This is a Data Analysis platform for the Big Five Leagues of football,
 
-## in master branch, flownet2 is used to calculate optical flow between to frame, and by running
-      fm.py 
-   to get the optical feature maps
+which is based on python, and the information is from 'https://www.dongqiudi.com/'
 
-## Three parts of the model needed to be trained:
-1. Unet for ddpm
-2. transformer for optical features maps and origin images
-3. transformer for dct images and images reconed above
-   
+## Usage method
 
-### Run conditional diffusion to training Unet on dct transformed image:
-      python model.py
+To use this Data Analysis Platform, we execute the Analysis_Platform.exe.
 
-the logic of adding the mask is in utils/mask_utils.py
+As it open, we first select a category that we want to know about, and click the 
+
+"确认" button, then select the league you want to know or enter the player's name you
+
+wan to know about, and click the "search" button to get the information.
+
+
+Click "搜索信息" button, it will collect the information of the league and player and write them into CSV
+
+file.
+
+###Usage Example
+
+1. Select'联赛积分榜' -> Click'确定' -> Select'Serie A' -> Click'Search' -> Get information
+
+2. Select'球员信息' -> Click'确定' -> enter'佩德里' -> Click'Search' -> Get information
+
+3. Select'联赛射手榜和助攻榜' -> Click'确定' -> select'Ligue 1' -> Click'Search' -> Get information
+
+4. Select'球员信息' -> Click'确定' -> enter'梅西' -> Click'Search' -> Get information
+
+5. Select'球员信息' -> Click'确定' -> enter'本泽马' -> Click'Search' -> Get information
+
+#### note
+
+1. When search the information of the players, you have to enter the Chinese name of the players
+
+2. Only the player who are on the goal list or the assist list of the Big Five Leagues of football
+
+can be found.
+
+3. Premier League and La Liga League data are currently all empty, because the 2022-2023 season has 
+
+alread end. It is determined by the 'https://www.dongqiudi.com/', we can't access information from the 
+
+season 2022-2023. In short, the function of the program works well, just the information on the website 
+
+is empty.
+
+##### Libraries to install
+
+1. bs4
+2.requests
+3.csv
+4.json
+5.tkinter
+
+###### Author
+
+Sun Weitai 孙伟太
+人工智能2班  学号：202264640330
+邮箱：sun.weitai@foxmail.com
