@@ -49,11 +49,11 @@ is empty.
 
 ##### Libraries to install
 
-1. bs4
-2.requests
-3.csv
-4.json
-5.tkinter
+      bs4
+      requests
+      csv
+      4.json
+      tkinter
 
 ###### Author
 
