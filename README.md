@@ -1,4 +1,4 @@
-# Introduce of the project
+# Introduction of the project
 
 This is a Data Analysis platform for the Big Five Leagues of football,
 
@@ -52,7 +52,7 @@ is empty.
       bs4
       requests
       csv
-      4.json
+      json
       tkinter
 
 ###### Author
