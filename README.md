@@ -6,13 +6,7 @@ which is based on python, and the information is from 'https://www.dongqiudi.com
 
 ## Usage method
 
-To use this Data Analysis Platform, we execute the Analysis_Platform.exe.
-
-As it open, we first select a category that we want to know about, and click the 
-
-"确认" button, then select the league you want to know or enter the player's name you
-
-wan to know about, and click the "search" button to get the information.
+To use this Data Analysis Platform, we execute the Analysis_Platform.exe. As it open, we first select a category that we want to know about, and click the "确认" button, then select the league you want to know or enter the player's name you wan to know about, and click the "search" button to get the information.
 
 
 Click "搜索信息" button, it will collect the information of the league and player and write them into CSV
