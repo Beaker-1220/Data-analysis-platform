@@ -19,7 +19,7 @@ Click "搜索信息" button, it will collect the information of the league and p
 
 file.
 
-            Usage Example
+## Usage Example
             
             1. Select'联赛积分榜' -> Click'确定' -> Select'Serie A' -> Click'Search' -> Get information
             
@@ -31,7 +31,7 @@ file.
             
             5. Select'球员信息' -> Click'确定' -> enter'本泽马' -> Click'Search' -> Get information
 
-#### note
+## note
 
 1. When search the information of the players, you have to enter the Chinese name of the players
 
@@ -47,7 +47,7 @@ season 2022-2023. In short, the function of the program works well, just the inf
 
 is empty.
 
-##### Libraries to install
+## Libraries to install
 
       bs4
       requests
@@ -55,7 +55,7 @@ is empty.
       json
       tkinter
 
-###### Author
+## Author
 
 Sun Weitai 孙伟太
 邮箱：sun.weitai@foxmail.com
