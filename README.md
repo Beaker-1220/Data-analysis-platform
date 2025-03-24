@@ -19,17 +19,17 @@ Click "搜索信息" button, it will collect the information of the league and p
 
 file.
 
-###Usage Example
-
-1. Select'联赛积分榜' -> Click'确定' -> Select'Serie A' -> Click'Search' -> Get information
-
-2. Select'球员信息' -> Click'确定' -> enter'佩德里' -> Click'Search' -> Get information
-
-3. Select'联赛射手榜和助攻榜' -> Click'确定' -> select'Ligue 1' -> Click'Search' -> Get information
-
-4. Select'球员信息' -> Click'确定' -> enter'梅西' -> Click'Search' -> Get information
-
-5. Select'球员信息' -> Click'确定' -> enter'本泽马' -> Click'Search' -> Get information
+            Usage Example
+            
+            1. Select'联赛积分榜' -> Click'确定' -> Select'Serie A' -> Click'Search' -> Get information
+            
+            2. Select'球员信息' -> Click'确定' -> enter'佩德里' -> Click'Search' -> Get information
+            
+            3. Select'联赛射手榜和助攻榜' -> Click'确定' -> select'Ligue 1' -> Click'Search' -> Get information
+            
+            4. Select'球员信息' -> Click'确定' -> enter'梅西' -> Click'Search' -> Get information
+            
+            5. Select'球员信息' -> Click'确定' -> enter'本泽马' -> Click'Search' -> Get information
 
 #### note
 
